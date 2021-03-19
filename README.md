@@ -1,4 +1,4 @@
-# 简单搜索  
+# 5IUX搜索  
 
 用惯了各种导航首页，满屏幕尽是各种不厌其烦的广告和资讯；尝试自己写个自己的主页。不是镜像不是代理，就当做浏览器主页使用，支持自适应屏幕。  
 
@@ -6,13 +6,8 @@
 
 
 ###  GIF示例效果
-![简单搜索](https://cdn.jsdelivr.net/gh/5iux/sou/0326.gif)
+![简单搜索](https://i.loli.net/2021/01/19/JsV34pBOcTbZk79.gif)
 > （图片效果，以实际页面为准） 
-
-
-
-### 新增黑暗模式（理论上支持）
-![黑暗模式](https://cdn.jsdelivr.net/gh/5iux/sou/dark.jpg)   
 
 
 
@@ -20,6 +15,8 @@
 
 [Releases](https://github.com/5iux/sou/releases)  
 
+##  Gitee同步更新
+[https://gitee.com/cn5iux/sou](https://gitee.com/cn5iux/sou)   
 
 
 
@@ -45,12 +42,19 @@
 
 ### 天气组件  
 
-[天气API地址](https://dev.heweather.com/widget/simple)
+[天气API地址](https://dev.qweather.com/widget/)
 
 
+### 背景图   
+已默认添加随机加载bing背景，不需要刻意在index.php中删除；   
+
+如使用自定义背景，可以删除bing背景后在页面内添加以下代码：   
+```html
+<style> 
+   body{background:url("https://cn.bing.com//th?id=OHR.HuntsMesa_JA-JP3140979616_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp") no-repeat center/cover;}
+</style>
+```
 
 ## 其他
-我这个只是个示例，有需求还是自己改，不喜欢php想换成js也可以；以前自己试过反代，还是小范围用的，没两天弄死一个好域名，不敢了，上谷歌大家还是自备梯子吧，这里不提供了。  
-
-关于百度搜索出来百家号的问题大家可以搜一下油猴脚本，或者在关键词后面加入`-baijiahao`参数。
+我这个只是个示例，有需求还是自己改，不喜欢php想换成js也可以；
 
